@@ -9,9 +9,10 @@ The objective of this assignment is to:
 1. Transform the NO₂ feature using a roll-number-dependent nonlinear function.
 2. Learn the parameters of a probability density function:
    
-   \[
-   \hat{p}(z) = c \cdot e^{-\lambda (z-\mu)^2}
-   \]
+    $$
+    \hat{p}(z) = c \cdot e^{-\lambda (z-\mu)^2}
+    $$
+
 
 3. Estimate the parameters \( \lambda \), \( \mu \), and \( c \).
 
@@ -29,18 +30,18 @@ Due to size limitations, the dataset file is not included in this repository.
 
 Transformation formula:
 
-\[
+$$
 z = x + a_r \sin(b_r x)
-\]
+$$
 
 Where:
 
-\[
+$$
 a_r = 0.05 \times (r \mod 7)
-\]
-\[
+$$
+$$
 b_r = 0.3 \times (r \mod 5 + 1)
-\]
+$$
 
 Roll Number:
 ```
@@ -57,15 +58,15 @@ b_r = 0.6
 
 Since:
 
-\[
+$$
 a_r = 0
-\]
+$$
 
 The transformation simplifies to:
 
-\[
+$$
 z = x
-\]
+$$
 
 ---
 
@@ -73,26 +74,25 @@ z = x
 
 We assume:
 
-\[
+$$
 \hat{p}(z) = c \cdot e^{-\lambda (z-\mu)^2}
-\]
+$$
 
 This is equivalent to a Gaussian distribution.
 
 From Gaussian properties:
 
-\[
+$$
 \lambda = \frac{1}{2\sigma^2}
-\]
+$$
 
-\[
+$$
 c = \frac{1}{\sqrt{2\pi\sigma^2}}
-\]
+$$
 
 Where:
-
-- \( \mu \) = Mean of data  
-- \( \sigma^2 \) = Variance of data  
+- μ = Mean of data  
+- σ² = Variance of data 
 
 ---
 
