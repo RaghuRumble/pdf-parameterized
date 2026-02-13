@@ -20,9 +20,10 @@ The objective of this assignment is to:
 
 ## Dataset
 
-The dataset used in this assignment is publicly available on Kaggle:
-https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data
-Due to size limitations, the dataset file is not included in this repository.  
+- Dataset: India Air Quality Dataset
+- Feature Used: NO₂ concentration (`no2`)
+- Source: Kaggle – India Air Quality Data
+- https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data  
 
 ---
 
